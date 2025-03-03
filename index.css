@@ -36,8 +36,11 @@ a {
   justify-content: center;
   align-items: center;
 }
-.quote-padding {
+.quote-padding-right {
   padding-right: 20rem;
+}
+.quote-padding-left {
+  padding-left: 18rem;
 }
 
 /* nav bar  */
@@ -159,4 +162,53 @@ ul li a:hover {
   font-size: 2rem;
   font-weight: 700;
   text-align: end;
+}
+
+/* call to action  */
+.section-callToAction {
+  margin: 4.8rem 0;
+  padding: 7.8rem;
+}
+.callToAction-box {
+  max-width: 100rem;
+  background: #3882f6;
+  padding: 4rem 10rem;
+  border-radius: 7px;
+}
+.callToAction-box h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.callToAction-box p {
+  color: #ffffffb3;
+}
+.callToAction-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.callToAction-button button {
+  padding: 1.2rem 4.4rem;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* footer */
+.section-footer {
+  padding: 4rem;
+  background: #1f2937;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.818);
+  font-size: 2rem;
 }
